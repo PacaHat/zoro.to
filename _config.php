@@ -1,20 +1,28 @@
-<?php 
-$conn = mysqli_connect("localhost", 'root' , '', "anime") or die("Connection fail");
+<?php
+
+$websiteTitle = "AniPaca"; // Website Name
+$websiteUrl = "//{$_SERVER['SERVER_NAME']}";  // Website URL
+$websiteLogo = $websiteUrl . "/files/images/logo.png?v=2"; // Logo
+$contactEmail = "animemelon69@gmail.com"; // Contact Email
+
+$version = "0.3";
+
+//Donate 
+$donate = "#";
+
+// Socials 
+$telegram = "https://t.me/#"; // telegram
+$discord = "https://discord.gg/aVvqx77RGs"; // Discord
+$redit = "#"; // Reddit
+$twitter = "#"; // Twitter
 
 
-$websiteTitle = "Zoro";
-$websiteUrl = "//{$_SERVER['SERVER_NAME']}";
-$websiteLogo = $websiteUrl . "/files/images/logo_zoro.png";
-$contactEmail = "@gmail.com";
 
-$version = "0.1";
+$disqus = "https://indianime.disqus.com"; // Disqus
 
-$discord = "https://dsc.gg/kirixen";
-$github = "https://github.com/kirixen";
-$twitter = "https://x.com/KiriX3n";
- 
-$disqus = "https://.disqus.com/embed.js";
-$api = "https://.vercel.app"; 
 
-$banner = $websiteUrl . "/files/images/banner.png";
-?>
+// API URL
+$api = "https://pxr15-e5eo-m8j26bszy-animemelon69-gmailcoms-projects.vercel.app"; // 
+
+
+$banner = $websiteUrl . "/files/images/banner.png";  //Banner
